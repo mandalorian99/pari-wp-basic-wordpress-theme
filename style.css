@@ -1,0 +1,101 @@
+/*
+ Theme Name: learning wordpress theme
+ Author:Mahendra Choudhary
+ Author URI: http://thecodestuff.com
+ Version:1.0
+ */
+body{
+    font-family: Arial, sans-serif ;
+    font-size: 14px ;
+    color:#333 ;
+}
+
+p{
+    line-height: 1.65em ;
+}
+
+a:link , a:visited{
+    color:#006ec3 ;
+}
+
+/*general layout*/
+div.container{
+    max-width: 920px;
+    margin:0 auto ;
+    padding-left:20px ;
+    padding-right: 20px;
+}
+
+/*header*/
+.site-header{
+    border-bottom:2px solid #999 ;
+}
+
+/*footer css*/
+site-footer{
+    margin-top:30px;
+    border-top:2px solid #999 ;
+}
+
+/*post box css*/
+article.post{
+    border-bottom:2px dotted #bbbbbb ;
+}
+/*Navigatin menu */
+.site-nav{
+    margin-top:5px;
+}
+.site-nav ul{
+    margin:0 ;
+    padding:0;
+}
+
+.site-nav ul li {
+    list-style-type:none ;
+    display:inline ;  
+}
+.site-nav ul li a{
+    text-decoration:none ;
+    font-size:20px;
+    /*background-color: ;*/
+}
+
+/*site header nav */
+.site-header nav ul li{
+    margin-right:30px ;
+}
+.footNav{
+    font-size: 10px;
+}
+
+
+/*clearfix*/
+
+/*special tempate*/
+
+div.info-box{
+    background-color: #EEE;
+    float:right;
+    width:200px;
+    padding:10px 10px;
+    font-size: 12px;
+}
+
+/*POST read more button*/
+.read_more_btn{
+    background-color:orangered;
+    width:100px;
+    height:20px;
+    padding:5px 5px ;
+    text-align:center ;
+    border-radius:5px 5px 5px 5px;
+}
+.read_more_btn a{
+    text-decoration:none ;
+    color:white ;
+    font-weight: 100 ;
+}
+.read_more_btn :hover{
+    font-size: 12px;
+}
+
